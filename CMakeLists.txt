@@ -19,7 +19,7 @@ endif()
 
 SET(USED_LIBS ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY} ${Boost_REGEX_LIBRARY})
 
-add_executable(${PROJECT_NAME} main.cpp tutorial/simple_udp_server.h tutorial/async_tcp_server.h)
+add_executable(${PROJECT_NAME} main.cpp tutorial/simple_udp_server.h tutorial/async_tcp_server.h tutorial/tcp_chat_server.h)
 
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${USED_LIBS})
 
